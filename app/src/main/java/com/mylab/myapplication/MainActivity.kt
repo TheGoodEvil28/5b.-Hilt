@@ -56,7 +56,7 @@ fun Main(
             Text(text = "Number: $number")
             Spacer(modifier = Modifier.height(12.dp))
             Button(onClick = mainViewModel::generateNumber) {
-                Text(text = "Generate")
+                Text(text = "Randomize")
             }
         }
     }
